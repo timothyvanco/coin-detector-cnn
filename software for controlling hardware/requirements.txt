@@ -1,0 +1,6 @@
+picamera
+adafruit-circuitpython-charlcd
+RPi.GPIO
+Qt.py
+sklearn
+keras

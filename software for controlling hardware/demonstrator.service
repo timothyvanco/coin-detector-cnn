@@ -1,0 +1,13 @@
+[Unit]
+Description=Coins demonstrator service
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+ExecStart=/bin/bash -c 'sleep 10;sudo python3 /home/pi/sw/main.py --platform linuxfb'
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/sw
+Restart=no
